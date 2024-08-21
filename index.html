@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lotus</title>
+</head>
+<body>
+    <div class="gradient-background"></div>
+    <section class="front-page">
+        <img class="hero" src="./assets/hero.jpg" alt="meditation">
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="logo">
+                <h1>Lotus Studio</h1>
+            </div>
+            <div class="links">
+                <a href="#our-history">our story</a>
+                <a href="#classes">classes</a>
+                <a href="#practice">practice</a>
+            </div>
+            <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line class="line" y1="1" x2="44" y2="1" stroke="white" stroke-width="2"/>
+                <line class="line" y1="9" x2="27" y2="9" stroke="white" stroke-width="2"/>
+                <line class="line" y1="17" x2="11" y2="17" stroke="white" stroke-width="2"/>
+                </svg>
+        </nav>
+        <div class="selling-point">
+            <h2>Find your peace at Lotus.</h2>
+            <h3>Join Lotus Studio today and embark on a journey of wellness and serenity, tailored to enhance both body and mind.</h3>
+        <div class="ctas">
+            <button class="cta-sec">Explore classes</button>
+            <button class="cta-main"><a href="https://koalendar.com/e/yoga-appointment">Sign up today</a></button>
+        </div>
+        </div>
+    </section>
+
+    <section id="classes" class="classes">
+        <div class="classes-description">
+            <h2>Unlock your potential with personalized classes</h2>
+            <h3>Rejuvenate your mind and body—start your healing journey today</h3>
+        </div>
+        <div class="videos">
+            <div class="meditation">
+                <h3 class="legend">Meditation</h3>
+                <video muted loop class="video" src="./assets/meditation.mp4"></video>
+            </div>
+            <div class="yoga">
+                <h3 class="legend">Yoga</h3>
+                <video muted loop class="video" src="./assets/yoga.mp4"></video>
+            </div>
+            <div class="massage">
+                <h3 class="legend">Massage</h3>
+                <video muted loop class="video" src="./assets/massage.mp4"></video>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-history" class="about">
+        <div class="our-story">
+            <h2>Our story...</h2>
+            <p>
+                At Lotus Studio, our story begins with a passion for holistic wellness and a desire to create a sanctuary for those seeking balance in their lives. Founded by dedicated yoga enthusiasts, our studio is more than just a place to practice; it’s a community where individuals come together to explore the depths of their physical and spiritual well-being. From our humble beginnings, we've grown into a vibrant space where every class is designed to nurture, heal, and inspire. Join us, and become a part of our journey towards a healthier, more harmonious life.
+            </p>
+        </div>
+        <img src="./assets/our-story.jpg" alt="our story">
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+    </script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
